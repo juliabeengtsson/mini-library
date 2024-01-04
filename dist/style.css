@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 43px;
+    text-align: start;
+    padding-bottom: 1rem;
+}
+.books {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 1rem;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.book-1 {
+    background-color: #F2C94C;
+    background-image: linear-gradient(to top right, #F2C94C , #ffffff7c);
+
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    height: 240px;
+    width: 200px;
+    cursor: pointer;
+}
+.book-2 {
+    background-color: #F2994A;
+    background-image: linear-gradient(to top right, #F2994A , #ffffff7c);
+
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    height: 240px;
+    width: 200px;
+    cursor: pointer;
+}
+.book-3 {
+    background-color: #EB5757;
+    background-image: linear-gradient(to top right, #EB5757 , #ffffff7c);
+
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    height: 240px;
+    width: 200px;
+    cursor: pointer;
+}
+.book-4 {
+    background-color: #9B51E0;
+    background-image: linear-gradient(to top right, #9B51E0 , #ffffff7c);
+
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    height: 240px;
+    width: 200px;
+    cursor: pointer;
+}
+.book-5 {
+    background-color: #56CCF2;
+    background-image: linear-gradient(to top right, #56CCF2 , #ffffff7c);
+
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    height: 240px;
+    width: 200px;
+    cursor: pointer;
+}
+.book-6 {
+    background-color: #2F80ED;
+
+    background-image: linear-gradient(to top right, #2F80ED , #ffffff7c);
+
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    height: 240px;
+    width: 200px;
+    cursor: pointer;
+}
+.book-7 {
+    background-color: #6FCF97;
+    background-image: linear-gradient(to top right, #6FCF97 , #ffffff7c);
+
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    height: 240px;
+    width: 200px;
+    cursor: pointer;
+}
+.book-8 {
+    background-color: #27AE60;
+    background-image: linear-gradient(to top right, #27AE60 , #ffffff7c);
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    height: 240px;
+    width: 200px;
+    cursor: pointer;
+}
+.book-title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 1.1rem;
+    padding: .5rem 1.3rem .2rem 1.3rem;
+}
+.book-author {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: .7rem;
+    padding: 0 1.3rem .5rem 1.3rem;
+}
+.book-container {
+    display: flex;
+}
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: black;
+    padding: 5px;
+}
+
+/* Informationssidan om varje bok */
+
+.reset-btn {
+    margin-bottom: 2rem;
+    cursor: pointer;
+}
+.bookItemCopy {
+    height: 464px;
+    width: 389px;
+}
+.overlay {
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+    color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.info-container {
+    height: 100vh;
+    color: #fff;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.info-content {
+    display: flex;
+    gap: 2rem;
+}
+.info-title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+}
+.info-subtitle {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: .8rem;
+    margin-bottom: 2rem;
+}
+.info-paragraph {
+    width: 25rem;
+    font-size: 1rem;
+    margin-bottom: 3rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.box-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    background-color: #c4c4c43b;
+    padding: .5rem 1rem;
+    gap: .6rem;
+    margin-bottom: 1rem;
+}
+.fun-fact {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: .8rem;
+}
+.button {
+    background-color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: .6rem .8rem;
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+    margin-top: 1rem;
+    cursor: pointer;
+}

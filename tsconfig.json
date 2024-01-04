@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+      "target": "ES6", // vilken js version vi skall kompilera till
+      "outDir": "./dist", // var skall vår js-fil hamna
+      //"rootDir": "/dist",
+  },
+  "include": ["./src"], // vilka filer som skall kompilera
+  "exclude": ["node_modules"], // vilka filer som Inte skall kompilera
+}
